@@ -1,0 +1,3 @@
+{"require": {
+  "dropbox/dropbox-sdk": "1.1.*"
+}}

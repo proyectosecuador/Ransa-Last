@@ -1,0 +1,142 @@
+/*====================================================================
+=            ESTILO A LA TABLA DE VALORIZACION DE LAS BPA            =
+====================================================================*/
+.tvalorizacionpeque{
+	display: none;
+}
+.cabeceratabla{
+	border: solid black 1.0pt; 
+	background: #D8D8D8; 
+	padding: 0cm 3.5pt 0cm 3.5pt; 
+	height: 23.25pt;
+}
+.izquierdo{
+	padding-right: 0;
+}
+.dentroizquierdo{
+	border: solid black 1.0pt;
+	border-top: 0;
+	height: 52.25pt;
+	padding:3px;
+}
+.medio{
+	padding-left: 0;
+	padding-right: 0;
+
+}
+.dentromedio{
+	border: solid black 1.0pt;
+	border-top: 0; 
+	border-left: 0;
+	border-right: 0;
+	height: 52.25pt
+}
+.derecho{
+	padding-left: 0;
+}
+.dentroderecho{
+	border: solid black 1.0pt;
+	border-top: 0;
+	height: 52.25pt;
+}
+.numerosvalorizacion{
+	font-size: 25px;
+}
+/*.numerosvalorizacion div{
+	padding: 17px;
+}*/
+.anchotextoitem{
+	width: 635px;
+}
+.optioncheckcalidad{
+	margin-top: -35px;
+}
+.optioncheckcalidadpeque{
+	margin-top: -26px;
+}
+.selectcheckbpa{
+	padding: 7px;
+	border: 1px solid #c0b6b6;
+}
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+
+
+
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.anchotextoitem{
+		width: 58%;
+	}
+	.selectcheckbpa{
+		width: 172px;
+	}	
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+	.anchotextoitem{
+		width: 63%;
+	}
+	.selectcheckbpa{
+		width: 172px;
+	}
+
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+	.izquierdo{
+		padding-right: 10px;
+	}
+	.medio{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.derecho{
+		padding-left: 10px;
+	}
+	.dentromedio{
+		border-left: solid black 1.0pt;
+		border-right: solid black 1.0pt;
+	}
+
+	.tvalorizaciongrande{
+		display: none;
+	}
+	.tvalorizacionpeque{
+		display: block;
+	}
+	.anchotextoitem{
+		width: 100%;
+	}
+	.optioncheckcalidad, .optioncheckcalidadpeque{
+		float: none !important;
+		margin-top: 10px;
+	}
+	.selectcheckbpa{
+		width: 134px;
+	}
+
+}

@@ -1,0 +1,165 @@
+/*=============================================
+=            ALTTURA DE BOTON DE INPUT            =
+=============================================*/
+#secbaterias .bootstrap-tagsinput{
+	line-height: 37px;
+}
+#responsable .bootstrap-tagsinput{
+	line-height: 37px;	
+}
+.badge-info{
+	color: #fff;
+    background-color: #17a2b8;
+}
+.btnanadir{
+	background: #fff;
+	cursor: pointer;
+}
+.btnanadir:hover{
+	background: #eeeeee;
+	cursor: pointer;
+}
+.descrip_equipo{
+	resize: vertical;
+}
+.msj_localizacion1{
+	display: none;
+}
+.msj_localizacion1E{
+	display: none;
+}
+.optionchecklist{
+	margin: -8px;
+}
+/*===============================================================
+=            OCULTAR LOS ITEMS DE CHECK LIST INICIAL            =
+===============================================================*/
+#checkListsmartwizard{
+	display: none;
+}
+#registro_novedad{
+	display: none;	
+}
+textarea {
+	resize: vertical;
+}
+/*==========================================================================
+=            OCULTAR DATOS AL MOMENTO QUE SE PARALIZA EL EQUIPO            =
+==========================================================================*/
+#datosparalizacion{
+	display: none
+}
+/*=====  OCULTAR LOS BOTONES DE OPCIONES  ======*/
+#botonesacciones{
+	display: none;
+}
+.checkallitem{
+	position: relative;
+	right: 20px;    
+    padding-top: 25px;
+}
+.vertical-Align{
+	vertical-align: middle;
+}
+/*======================================
+=            ESTILO DE TAGS            =
+======================================*/
+Tab Navigation
+/*.nav-tabs {
+    margin: 0;
+    padding: 0;
+    border: 0;    
+}
+.nav-tabs > li > a {
+    background: #f3f2f2;
+    border-radius: 0;
+    box-shadow: inset 0 -8px 7px -9px rgba(0,0,0,.4),-2px -2px 5px -2px rgba(0,0,0,.4);
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+    background: #F5F5F5;
+    box-shadow: inset 0 0 0 0 rgba(0,0,0,.4),-2px -3px 5px -2px rgba(0,0,0,.4);
+}
+
+/* Tab Content */
+/*.tab-pane {
+    background: #F5F5F5;
+    box-shadow: 0 0 4px rgba(0,0,0,.4);
+    border-radius: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+@media(min-width: 1400px){
+.textmovil #definetext:before{
+	content: "Cant. Carga:";
+	
+}
+#textidenbat:before{
+	content: "Id. Bateria: ";
+}	
+}
+@media (min-width:1200px){
+.textmovil #definetext:before{
+	content: "Cant. Carga::";
+	
+}
+#textidenbat:before{
+	content: "Id. Bateria: ";
+}	
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+.textmovil #definetext:before{
+	content: "Cant. Carga::";
+	
+}
+#textidenbat:before{
+	content: "Id. Bateria: ";
+}	
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+.textmovil #definetext:before{
+	content: "Cant. Carga::";
+	
+}
+#textidenbat:before{
+	content: "Id. Bateria: ";
+}	
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+/*=====================================================
+=            SELECCION DEL CLIENTE ESPACIO            =
+=====================================================*/
+.textmovil #definetext:before{
+	content: "Cant. Carga:";
+}
+#textidenbat:before{
+	content: "Id. Bateria: ";
+}	
+.x_title h2{
+	width: 100%;
+	font-size: 14px;
+}
+
+}

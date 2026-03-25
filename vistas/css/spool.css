@@ -1,0 +1,154 @@
+div.dt-button-background {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    background: -ms-radial-gradient(center, ellipse farthest-corner, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+    background: -moz-radial-gradient(center, ellipse farthest-corner, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+    background: -o-radial-gradient(center, ellipse farthest-corner, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+    background: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, rgba(0,0,0,0.3)), color-stop(1, rgba(0,0,0,0.7)));
+    background: -webkit-radial-gradient(center, ellipse farthest-corner, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+    background: radial-gradient(ellipse farthest-corner at center, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+    z-index: 2001;
+}
+.dt-button-collection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    margin-top: 3px;
+    padding: 10px 0px 4px 0px;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.4);
+    background-color: white;
+    overflow: hidden;
+    z-index: 2002;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    }
+
+.dt-button-collection li{
+	margin: 2px;
+	text-align: center;
+}
+.buttons-columnVisibility{
+	cursor: pointer;
+	width: 98%;
+	padding: 2px;
+    border: 1px solid #8c8c8c;
+    border-radius: 10px;
+
+}
+.buttons-columnVisibility:hover{
+	color: white;
+    background-color: #d4d4d4;
+
+}
+.dataTables_paginate a{
+    cursor: pointer;
+}
+#tText li.active{
+    background-color: #bee4be;
+    color: white;
+}
+.icoCargar{
+    margin-right: 5px;
+}
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+
+
+
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+/*=============================================
+LOGO
+=============================================*/
+#loginLogo{
+	justify-content: center;
+}
+
+#loginLogo img{
+	width: 240px;
+}
+/*=============================================
+FORMULARIO
+=============================================*/
+.form{
+	width: 300px;
+}
+#formLogin .letter-record{
+	font-size: 30px;
+}
+/*=============================================
+SPOOL
+=============================================*/
+.page-title .title_left {
+    width: 100%;
+    text-align: center;
+}
+.page-title .title_right {
+    width: 100%;
+    float: left;
+}
+#btnCargar .input-group-addon{
+    display: none;
+}
+#btnCargar .form-control{
+    font-size: 12px;
+}
+#textSubir{
+    display: none;
+}
+.icoCargar{
+    margin-right: 0px;
+}
+#datatable-buttons_wrapper{
+    text-align: center;
+}
+#datatable-buttons_wrapper .dt-buttons{
+    margin: 5px;
+}
+#datatable-buttons_wrapper #datatable-buttons_length{
+    width: 100%;
+}
+#datatable-buttons_wrapper #datatable-buttons_filter{
+    width: 100%;
+}
+
+}

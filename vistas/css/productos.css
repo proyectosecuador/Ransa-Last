@@ -1,0 +1,124 @@
+.control-labels{
+	padding-top: 7px;
+    margin-bottom: 0;
+    
+}
+.visualizar{
+	font-size: 20px;
+	background-color: transparent;
+}
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+#visualProductos .slides img{
+	height: 312px;
+}
+.x_titulo{
+	border-bottom: 2px solid #E6E9ED;
+	padding: 1px 5px 6px;
+	margin-bottom: 10px;
+}
+#image{
+	display: block;
+	max-width: 100%;
+}
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+	/*=====================================================================================
+	=            TAMAÑO DONDE SE MOSTRARÁ EL NOMBRE DEL CLIENTE AL SELECCIONAR            =
+	=====================================================================================*/
+	.x_title h2{
+		width: 100%;
+
+	}
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+/*============================================================
+=            TITULO DE PAGINA INGRESO DE PRODUCTO            =
+============================================================*/
+.titlePage h3{
+	font-size: 20px;
+}
+/*============================================================================
+=            ESTADO PRODUCTO AL MOMENTO DE SELECCIONAR EL CLIENTE            =
+============================================================================*/
+
+
+/*=================================================
+=            BOTON IMAGENES MULTIMEDIA            =
+=================================================*/
+#btnCargarRef .input-group-addon{
+    display: none;
+}
+#btnCargarRef .form-control{
+    font-size: 12px;
+}
+/*=========================================================
+=            CUADRO DE TEXTO PARA BUSCAR MOVIL            =
+=========================================================*/
+.dataTables_filter{
+	width: 100%;
+	padding-bottom: 10px;
+}
+.dataTables_length{
+	width: 100%;
+	padding: 10px;	
+}
+#datatableUserClienteS_paginate{
+	padding-top: 10px;
+}
+/*===========================================================
+=            ESPACIO PARA SELECCIONAR EL CLIENTE            =
+===========================================================*/
+.page-title .title_right .pull-right{
+	margin: 5px 0px;
+}
+/*====================================================
+=            TAMAÑO DE LA IMAGEN EN MOVIL            =
+====================================================*/
+#visualProductos .slides img {
+	height: 216px;
+
+}
+
+
+
+
+}

@@ -1,0 +1,21 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  /*padding: 10px;*/
+}
+.boxes{
+  padding: 10px;
+  margin: 5px;
+  background-color: #009a3f;
+  text-align: center;
+  font-size: 20px;
+}
+.boxes a{
+	color: white;
+}
+#CiudadGarita{
+  display: none;
+}
+#DatosTablaGarita{
+  display: none;
+}

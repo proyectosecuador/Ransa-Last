@@ -1,0 +1,57 @@
+#userClient{
+	display: none;
+}
+#selectPerfil{
+	display: none;
+}
+#img_contain{
+	padding: 15px;
+}
+#selectCuentaRan{
+	display: none;
+}
+#textCuentaRan{
+	display: none;
+}
+#inputcargo{
+	display: none;
+}
+.modal-borde{
+	border-top: 0px;
+}
+.fa-hovers{
+	font-size: 24px;
+	cursor: pointer;
+    text-decoration: none;
+}
+#inputref{
+	display: none;
+	padding-top: 20px;
+}
+#seModulo_chosen{
+	display: none;
+}
+#selectArea{
+	display: none;
+}
+#selecCiudad{
+	display: none;
+}
+/*======================================
+=            EDITAR USUARIO            =
+======================================*/
+#formEditar .nombreusuario span{
+	position: absolute;
+	padding-top: 3px;
+	right: 0px;
+}
+/*=======================================
+=            ICONOS EN INPUT            =
+=======================================*/
+.input-lg + .form-control-feedback{
+	height: auto;
+    line-height: 27px;
+}
+
+
+

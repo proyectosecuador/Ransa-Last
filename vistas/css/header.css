@@ -1,0 +1,126 @@
+/*=============================================
+HEADER
+=============================================*/
+header #bar{
+	padding: 20px 0px;
+	padding-left: 20px;
+}
+header #bar a span{
+	font-size: 40px;
+}
+header #logo{
+	padding: 10px 0px;
+}
+header #btnUsuariocliente{
+	padding: 10px 0px;
+}
+header #btnUsuariocliente .dropdown-toggle::after{
+	margin-top: 1.400em;
+}
+header #btnUsuariocliente div{
+	justify-content: flex-end;
+}
+header #btnUsuariocliente .logo{
+	border: 1px solid silver;
+	border-radius: 10px;
+}
+header #btnUsuariocliente .logo:hover{
+	cursor: pointer;
+	background-color: #00800085;
+}
+header #btnUsuariocliente .dropdown-item{
+	color: black;
+}
+header #btnUsuariocliente img{
+	width: 50px;
+}
+header #btnUsuariocliente p span{
+	color: #ffffff;
+
+}
+header .dropdown-item:hover{
+	background: #00a72c52;
+}
+header #btnUsuariocliente p{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+}
+header #btnUsuariocliente .dropdown-menu a span{
+	padding-right: 15px;
+	font-size: 18px;
+}
+header #btnUsuariocliente .logo{
+	margin-right: 15px;
+}
+
+
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+	header #btnUsuariocliente{
+		margin-top: 10px; 
+		padding-top: 0px;
+	}
+	header #btnUsuariocliente .identidadUsuarios{
+		display: none;
+	}
+	header #btnUsuariocliente div{
+		justify-content: center;
+	}
+	header #btnUsuariocliente .logo{
+		margin-right: 0px;
+		border: 0px;
+	}
+	header #btnUsuariocliente .logo a img{
+		width: 50px;
+	}
+
+
+}

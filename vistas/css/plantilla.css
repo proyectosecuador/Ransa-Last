@@ -1,0 +1,169 @@
+.conte_loading{
+  display: block;
+  position: fixed; /* Stay in place */
+  z-index: 1061; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 100px;
+  text-align: center;
+}
+.nomCorto{
+	display: none;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.main_menu .fas{
+	width: 26px;
+    font-size: 18px;
+}
+.text-break{
+	word-wrap: break-word!important;
+  word-break: break-word!important;
+}
+
+/*=============================================
+ERROR 404, VERIFICAR
+=============================================*/
+
+.error404. .verificar{
+	color:#333;
+}
+/*=============================================
+INPUT[FILE] OCULTOS
+=============================================*/
+input[type="file"] {
+    display: none;
+}
+
+.conte_loading{
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1061; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 100px;
+  text-align: center;
+}
+.cont_gif{
+	display: block;
+	text-align: center;
+	font-family: 'Lilita One', cursive;
+	font-size: 30px;
+	color: #585707;
+	margin-top: -50px;
+	margin-left: 25px; 
+}
+.selectbutton{
+	padding: 7px;
+    border: 1px solid #c0b6b6;
+}
+.contenedorselecbutton{
+    display: flex;
+    align-items: stretch	
+}
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	.error404 h1{
+		font-size:300px;
+		text-shadow:8px 8px 1px #dadada;
+	}
+
+
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.error404 h1{
+		font-size:200px;
+		text-shadow:6px 6px 1px #dadada;
+	}
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+/*=====================================================
+=            SELECCION DEL CLIENTE ESPACIO            =
+=====================================================*/
+.x_title h2{
+	width: 100%;
+}
+/*===================================================
+=            ANCHO DEL MODAL PARA EDITAR            =
+===================================================*/
+.modal-dialog{
+	width: 670px;
+}
+
+
+
+
+.error404 h1{
+	font-size:150px;
+	text-shadow:4px 4px 1px #dadada;
+}
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+/*=====================================================
+=            SELECCION DEL CLIENTE ESPACIO            =
+=====================================================*/
+.x_title h2{
+	width: 100%;
+}
+/*===============================================
+=            TAMAÑO DE LETRA GENERAL            =
+===============================================*/
+.form-control{
+	font-size: 11px;
+}
+.input-group-addon{
+	font-size: 11px;	
+}
+
+
+
+
+	.error404 h1{
+		font-size:75px;
+		text-shadow:2px 2px 1px #dadada;
+	}
+	.nomCorto{
+		display: inline-block;
+
+	}
+	.nomLargo{
+		display: none;
+	}
+
+}
